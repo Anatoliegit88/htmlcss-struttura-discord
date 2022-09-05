@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  background-color: rgb(62, 255, 255);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px saddlebrown;
+}
