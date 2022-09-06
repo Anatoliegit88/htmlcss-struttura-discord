@@ -116,17 +116,20 @@ footer {
   background-color: lightcoral;
   height: 300px;
   border: black dashed;
+  display: flex;
+  flex-direction: column;
 }
 
 .ft-menu-box {
   width: 70%;
   background-color: lightseagreen;
   height: 300px;
+  display: flex;
+  flex-direction: column;
 }
 .ft-menu-col {
   border: 1px dashed white;
   height: 300px;
-  display: flex;
 }
 
 /* /footer */
