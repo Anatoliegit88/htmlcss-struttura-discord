@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* Hrader */
+/* header */
 header {
   height: 50px;
   line-height: 20px;
@@ -32,7 +32,9 @@ header {
   width: calc(100% / 2);
   background-color: orange;
 }
+/* /header */
 
+/* main */
 .container {
   display: flex;
   justify-content: center;
@@ -93,3 +95,38 @@ header {
 section {
   padding: 40px 0;
 }
+/* /main */
+
+/* footer */
+footer {
+  background-color: rgb(43, 44, 42);
+}
+
+.ft-top {
+  height: 400px;
+  display: flex;
+  width: 80%;
+  padding-top: 5px;
+  margin-bottom: 15px;
+  margin: auto;
+}
+
+.ft-social {
+  width: 30%;
+  background-color: lightcoral;
+  height: 300px;
+  border: black dashed;
+}
+
+.ft-menu-box {
+  width: 70%;
+  background-color: lightseagreen;
+  height: 300px;
+}
+.ft-menu-col {
+  border: 1px dashed white;
+  height: 300px;
+  display: flex;
+}
+
+/* /footer */
