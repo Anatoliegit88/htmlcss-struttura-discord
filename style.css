@@ -4,11 +4,89 @@
   box-sizing: border-box;
 }
 
-.flex-container {
-  background-color: rgb(62, 255, 255);
-  height: 60px;
+/* Hrader */
+header {
+  height: 50px;
+  line-height: 20px;
+  background-color: aquamarine;
+}
+
+.header-box {
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  border: 1px saddlebrown;
+  width: 98%;
+  padding: auto;
+  height: 30px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.col {
+  width: calc(100% / 5);
+  border: 1px dashed black;
+  background-color: orange;
+}
+
+.col-large {
+  border: 1px dashed black;
+  width: calc(100% / 2);
+  background-color: orange;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  height: 350px;
+  margin: auto;
+}
+
+.container-pink {
+  background-color: palevioletred;
+  height: 300px;
+  width: 70%;
+  margin: auto;
+}
+
+#blue {
+  background-color: blue;
+  height: 400px;
+}
+
+#white {
+  background-color: white;
+  height: 500px;
+}
+
+#lightblue {
+  width: 50%;
+  background-color: lightblue;
+}
+
+#lightpink {
+  width: 30%;
+  background-color: lightpink;
+}
+
+#grey {
+  background-color: lightgray;
+  height: 500px;
+  margin: auto;
+}
+
+#green {
+  background-color: lightgrey;
+  height: 600px;
+}
+
+.container-green {
+  height: 500px;
+  width: 80%;
+  background-color: green;
+  /* justify-content: center;
+  align-items: center; */
+  margin: auto;
 }
