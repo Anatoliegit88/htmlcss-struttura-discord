@@ -9,29 +9,40 @@ header {
   height: 50px;
   line-height: 20px;
   background-color: aquamarine;
+  padding: auto;
 }
 
 .header-box {
   display: flex;
-  width: 98%;
   padding: auto;
+  margin: auto;
   height: 50px;
+  width: 90%;
   justify-content: center;
-  text-align: center;
   align-items: center;
 }
 
-.col {
+.col-logo {
   width: calc(100% / 5);
   border: 1px dashed black;
   background-color: orange;
+  text-align: start;
+}
+
+.col-login {
+  width: calc(100% / 5);
+  border: 1px dashed black;
+  background-color: orange;
+  text-align: end;
 }
 
 .col-large {
   border: 1px dashed black;
   width: calc(100% / 2);
   background-color: orange;
+  text-align: center;
 }
+
 /* /header */
 
 /* main */
@@ -42,10 +53,6 @@ header {
   margin: 0 auto;
 }
 
-.flex-container {
-  height: 350px;
-}
-
 .container-pink {
   background-color: palevioletred;
   height: 300px;
@@ -53,32 +60,34 @@ header {
   margin: auto;
 }
 
-#blue {
+.section-blue {
   background-color: blue;
   height: 400px;
   display: flex;
   align-items: center;
 }
 
-.white {
+.section-white {
   background-color: white;
 }
 
-#lightblue {
+.container-white-img {
   width: 60%;
   background-color: lightblue;
+  height: 350px;
 }
 
-#lightpink {
+.container-white-text {
   width: 40%;
   background-color: lightpink;
+  height: 350px;
 }
 
-#grey {
+.section-grey-1 {
   background-color: lightgray;
 }
 
-#green {
+.section-grey-2 {
   background-color: lightgray;
   height: 600px;
   display: flex;
@@ -117,7 +126,6 @@ footer {
   height: 300px;
   border: black dashed;
   display: flex;
-  flex-direction: column;
 }
 
 .ft-menu-box {
@@ -125,11 +133,34 @@ footer {
   background-color: lightseagreen;
   height: 300px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .ft-menu-col {
   border: 1px dashed white;
   height: 300px;
+  width: 25%;
+  padding-bottom: 20px;
+}
+
+.ft-bottom {
+  padding-top: 10px;
+}
+
+.ft-bottom-content {
+  background-color: aquamarine;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background-color: pink;
+  border: black dashed;
+  text-decoration: none;
 }
 
 /* /footer */
